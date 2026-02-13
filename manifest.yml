@@ -42,8 +42,8 @@ dependencies:
   version: 3.2.1
   cf_stacks:
   - cflinuxfs5
-  uri: https://github.com/ivanovac/python-buildpack/releases/download/v1.9.0-beta-cflinuxfs5/libffi-3.2.1-linux-x64-cflinuxfs5.tgz
-  sha256: 0506516b9d2f42f979d48f85ad9e7c539ff528b4cc90f37e6f0efffe1edf4c6b
+  uri: https://github.com/ivanovac/python-buildpack/releases/download/v1.9.1-beta/libffi-3.2.1-linux-x64-cflinuxfs5.tgz
+  sha256: 5efb8a5e09a4607d9eef4b88c334358e247866d1940f400c3c6cfb87257b21cf
   source: https://sourceware.org/ftp/libffi/libffi-3.2.1.tar.gz
   source_sha256: d06ebb8e1d9a22d19e38d63fdb83954253f39bedc5d46232a05645685722ca37
 - name: libmemcache
@@ -59,8 +59,8 @@ dependencies:
   version: 1.0.18
   cf_stacks:
   - cflinuxfs5
-  uri: https://github.com/ivanovac/python-buildpack/releases/download/v1.9.0-beta-cflinuxfs5/libmemcache-1.0.18-linux-x64-cflinuxfs5.tgz
-  sha256: ebf066744717e1a1082c3ce75018add2d4c12964408be42eff001be2b7b4c6b3
+  uri: https://github.com/ivanovac/python-buildpack/releases/download/v1.9.1-beta/libmemcache-1.0.18-linux-x64-cflinuxfs5.tgz
+  sha256: 0beff6c1b58a0c5b0b189412f37dcd88eb1d8550ddddbf836d7027b8e0523031
   source: https://launchpad.net/libmemcached/1.0/1.0.18/+download/libmemcached-1.0.18.tar.gz
   source_sha256: e22c0bb032fde08f53de9ffbc5a128233041d9f33b5de022c0978a2149885f82
 - name: miniconda3-py39
@@ -141,9 +141,9 @@ dependencies:
   source: https://www.python.org/ftp/python/3.9.25/Python-3.9.25.tgz
   source_sha256: a7438eabd3a48139f42d4e058096af8d880b0bb6e8fb8c78838892e4ce5583f2
 - name: python
-  version: 3.9.25
-  uri: https://github.com/ivanovac/python-buildpack/releases/download/v1.9.0-beta-cflinuxfs5/python_3.9.25_linux_x64_cflinuxfs5.tgz
-  sha256: 8fbf8a21f827933962f84bd6530f64955f417dc5a8cb1aa3bec4ef0600532aae
+  version: 3.10.19
+  uri: https://github.com/ivanovac/python-buildpack/releases/download/v1.9.1-beta/python_3.10.19_linux_x64_cflinuxfs5.tgz
+  sha256: 09883202f2fcd8b9cf1cabda38220f24e34d2507ceb9c518fdd914e73c04de89
   cf_stacks:
   - cflinuxfs5
   source: https://www.python.org/ftp/python/3.9.25/Python-3.9.25.tgz
@@ -166,8 +166,8 @@ dependencies:
   source_sha256: a078fb2d7a216071ebbe2e34b5f5355dd6b6e9b0cd1bacc4a41c63990c5a0eec
 - name: python
   version: 3.10.19
-  uri: https://github.com/ivanovac/python-buildpack/releases/download/v1.9.0-beta-cflinuxfs5/python_3.10.19_linux_x64_cflinuxfs5.tgz
-  sha256: 88612dbfa9b442eca6849ccec8d98cf1f4140c29446b3f45e26e8680e319c06c
+  uri: https://github.com/ivanovac/python-buildpack/releases/download/v1.9.1-beta/python_3.10.19_linux_x64_cflinuxfs5.tgz
+  sha256: 09883202f2fcd8b9cf1cabda38220f24e34d2507ceb9c518fdd914e73c04de89
   cf_stacks:
   - cflinuxfs5
   source: https://www.python.org/ftp/python/3.10.19/Python-3.10.19.tgz
@@ -190,8 +190,8 @@ dependencies:
   source_sha256: 563d2a1b2a5ba5d5409b5ecd05a0e1bf9b028cf3e6a6f0c87a5dc8dc3f2d9182
 - name: python
   version: 3.11.14
-  uri: https://github.com/ivanovac/python-buildpack/releases/download/v1.9.0-beta-cflinuxfs5/python_3.11.14_linux_x64_cflinuxfs5.tgz
-  sha256: bed9c33f051f1f06b1be274af0b74dbc2cf131ca9a1bf42af3cd35bb3a8282c9
+  uri: https://github.com/ivanovac/python-buildpack/releases/download/v1.9.1-beta/python_3.11.14_linux_x64_cflinuxfs5.tgz
+  sha256: 32e5d1458b28d21e6a384d183aeffddca3bc2d47c54719797eca969e97120e01
   cf_stacks:
   - cflinuxfs5
   source: https://www.python.org/ftp/python/3.11.14/Python-3.11.14.tgz
@@ -214,8 +214,8 @@ dependencies:
   source_sha256: 487c908ddf4097a1b9ba859f25fe46d22ccaabfb335880faac305ac62bffb79b
 - name: python
   version: 3.12.12
-  uri: https://github.com/ivanovac/python-buildpack/releases/download/v1.9.0-beta-cflinuxfs5/python_3.12.12_linux_x64_cflinuxfs5.tgz
-  sha256: a06b6b10e807a714aab688745f76530c6a5971cdf52f579d6c1cd7fc235db451
+  uri: https://github.com/ivanovac/python-buildpack/releases/download/v1.9.1-beta/python_3.12.12_linux_x64_cflinuxfs5.tgz
+  sha256: d4fd728a2807b544f3e21b13bd5b62baaa4feb6b5b94b44d8de00d04d2cf36e7
   cf_stacks:
   - cflinuxfs5
   source: https://www.python.org/ftp/python/3.12.12/Python-3.12.12.tgz
@@ -238,8 +238,8 @@ dependencies:
   source_sha256: 03cfedbe06ce21bc44ce09245e091a77f2fee9ec9be5c52069048a181300b202
 - name: python
   version: 3.13.11
-  uri: https://github.com/ivanovac/python-buildpack/releases/download/v1.9.0-beta-cflinuxfs5/python_3.13.11_linux_x64_cflinuxfs5.tgz
-  sha256: c163beb5b3a1e802a090d64cf89159ec1def445e37b12bc870763489555d693e
+  uri: https://github.com/ivanovac/python-buildpack/releases/download/v1.9.1-beta/python_3.13.11_linux_x64_cflinuxfs5.tgz
+  sha256: 61a408d1387db8adeb17a323401e6971c7b5342a5be51be4cbf991353bf522b1
   cf_stacks:
   - cflinuxfs5
   source: https://www.python.org/ftp/python/3.13.11/Python-3.13.11.tgz
@@ -262,8 +262,8 @@ dependencies:
   source_sha256: c609e078adab90e2c6bacb6afafacd5eaf60cd94cf670f1e159565725fcd448d
 - name: python
   version: 3.14.2
-  uri: https://github.com/ivanovac/python-buildpack/releases/download/v1.9.0-beta-cflinuxfs5/python_3.14.2_linux_x64_cflinuxfs5.tgz
-  sha256: a78c85189afcf7500b2a8f8458eebfffdc0c1d425ac2e0f084c887a261160f62
+  uri: https://github.com/ivanovac/python-buildpack/releases/download/v1.9.1-beta/python_3.14.2_linux_x64_cflinuxfs5.tgz
+  sha256: e9885e44c636aa7fd0149074ddc646d247f960f910312e12bb8be19e0f09dd0b
   cf_stacks:
   - cflinuxfs5
   source: https://www.python.org/ftp/python/3.14.2/Python-3.14.2.tgz
